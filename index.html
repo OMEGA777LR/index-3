@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza casera</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #2b2b2b;
+            color: #f1f1f1;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #1f1f1f;
+        }
+
+        .logo {
+            font-size: 40px;
+        }
+
+        h1 {
+            color: #ff6b6b;
+            text-decoration: underline;
+            margin: 10px;
+        }
+
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #4dabf7;
+            text-decoration: underline;
+        }
+
+        ul, ol {
+            display: inline-block;
+            text-align: left;
+            margin: 0 auto;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        img {
+            width: 300px;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+
+        iframe, audio {
+            display: block;
+            margin: 15px auto;
+            max-width: 100%;
+        }
+
+        footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            background-color: #1f1f1f;
+            text-align: center;
+        }
+
+        .mapa, .desarrollador {
+            flex: 1 1 300px;
+        }
+
+        .mapa iframe {
+            width: 100%;
+            max-width: 400px;
+            height: 220px;
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">🍕</div>
+        <h1>Pizza casera</h1>
+    </header>
+
+    <main>
+        <h2>Ingredientes</h2>
+
+        <ul>
+            <li>500 g de harina</li>
+            <li>250 ml de agua tibia</li>
+            <li>25 g de levadura fresca</li>
+            <li>1 cucharadita de sal</li>
+            <li>2 cucharadas de aceite</li>
+        </ul>
+
+        <h2>Preparación</h2>
+
+        <ol>
+            <li>Colocar la harina en un recipiente y agregar la sal.</li>
+            <li>Disolver la levadura en el agua tibia.</li>
+            <li>Agregar el agua con levadura y el aceite a la harina.</li>
+            <li>Mezclar y amasar hasta obtener una masa suave.</li>
+            <li>Dejar reposar la masa aproximadamente 1 hora.</li>
+            <li>Estirar la masa y colocarla en una fuente para horno.</li>
+            <li>Agregar la salsa de tomate y distribuirla sobre la masa.</li>
+            <li>Incorporar la mozzarella y el orégano.</li>
+            <li>Llevar al horno precalentado a aproximadamente 200 °C.</li>
+            <li>Cocinar hasta que la masa esté dorada y el queso derretido.</li>
+        </ol>
+
+        <img src="./Imagenes/pizza.jpg" alt="Pizza casera">
+
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/L7iEQZBm6pc"
+            title="Video de preparación de pizza"
+            allowfullscreen>
+        </iframe>
+
+        <audio controls>
+            <source src="Audios/Counter Strike Theme Song (1).mp3" type="audio/mpeg">
+        </audio>
+    </main>
+
+    <footer>
+        <div class="mapa">
+            <h2>Mapa de mi barrio</h2>
+            <iframe
+                src="https://www.google.com/maps?q=Mitre,+Buenos+Aires,+Argentina&output=embed"
+                loading="lazy">
+            </iframe>
+        </div>
+
+        <div class="desarrollador">
+            <h2>Información del desarrollador</h2>
+            <p>Nombre: OMEGA777L</p>
+            <p>Curso: Potrero Digital</p>
+            <p>Página web: Pizza casera</p>
+        </div>
+    </footer>
+
+</body>
+</html>
